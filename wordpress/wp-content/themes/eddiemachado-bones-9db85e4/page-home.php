@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 
 <div id="content">
-		<div class="noticias">
+		<div class="ei_section sc_noticias">
 				<div id="inner-content" class="wrap cf">
 
 						<main id="main" class="m-all t-all d-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
@@ -80,7 +80,7 @@
 
 				</div>
 		</div>
-		<div class="misionero">
+		<div class="ei_section sc_misionero">
 			<div id="inner-content" class="wrap cf">
 				<div class="btn-conteiner">
 					<div class="green-btn">

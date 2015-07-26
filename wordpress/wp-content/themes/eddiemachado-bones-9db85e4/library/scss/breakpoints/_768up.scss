@@ -281,16 +281,19 @@ SIDEBARS & ASIDES
 /*********************
 HOME STYLES
 *********************/
-.noticias{
+.ei_section{
+	min-height: 740px;
+}
+.sc_noticias{
 	background: url('../images/home/bg-noticias.jpg') no-repeat;
 	background-size: cover;
-	min-height: 500px;
+
 	padding-top: 6.5em;
 }
-.misionero{
+.sc_misionero{
 	background: url('../images/home/bg-misionero.jpg') no-repeat;
 	background-size: cover;
-	min-height: 500px;
+
 	padding-top: 6.5em;
 
 	.btn-conteiner{
