@@ -735,7 +735,7 @@ COMMENT STYLES
 
 	/* comment reply link */
 	.comment-reply-link {
-		@extend .blue-btn;
+		@extend .green-btn;
 		font-size: 0.9em;
 		float: right;
 
@@ -791,7 +791,7 @@ COMMENT FORM STYLES
 
 	/* comment submit button */
 	#submit {
-		@extend .blue-btn;
+		@extend .green-btn;
 		float: right;
 		font-size: 1em;
 	}

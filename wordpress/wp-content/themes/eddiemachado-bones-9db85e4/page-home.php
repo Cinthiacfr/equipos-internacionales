@@ -82,6 +82,11 @@
 		</div>
 		<div class="misionero">
 			<div id="inner-content" class="wrap cf">
+				<div class="btn-conteiner">
+					<div class="green-btn">
+						<p>¿Como ser misionero?</p>
+					</div>
+				</div>
 			</div>
 		</div>
 

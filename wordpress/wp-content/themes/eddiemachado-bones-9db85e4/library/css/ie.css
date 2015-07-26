@@ -382,6 +382,9 @@ HOME STYLES
   background-size: cover;
   min-height: 500px;
   padding-top: 6.5em; }
+  .misionero .btn-conteiner {
+    width: 100%;
+    text-align: center; }
 
 /*********************
 FOOTER STYLES
