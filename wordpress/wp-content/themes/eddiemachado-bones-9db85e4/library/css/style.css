@@ -1986,16 +1986,16 @@ you can add resource intensive styles.
     background-size: cover;
     padding-top: 6.5em; }
 
-  .sc_misionero {
+  .sc_misionero, .sc_entrevista {
     background: url("../images/home/bg-misionero.jpg") no-repeat;
     background-size: cover;
     padding-top: 6.5em; }
-    .sc_misionero .btn-conteiner {
+    .sc_misionero .btn-conteiner, .sc_entrevista .btn-conteiner {
       width: 100%;
       text-align: center;
       position: relative;
       height: 526px; }
-      .sc_misionero .btn-conteiner .green-btn, .sc_misionero .btn-conteiner .comment-reply-link, .sc_misionero .btn-conteiner #submit {
+      .sc_misionero .btn-conteiner .green-btn, .sc_misionero .btn-conteiner .comment-reply-link, .sc_misionero .btn-conteiner #submit, .sc_entrevista .btn-conteiner .green-btn, .sc_entrevista .btn-conteiner .comment-reply-link, .sc_entrevista .btn-conteiner #submit {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -2004,12 +2004,16 @@ you can add resource intensive styles.
         margin-right: auto;
         max-width: 622px;
         width: 59.808%; }
-        .sc_misionero .btn-conteiner .green-btn p, .sc_misionero .btn-conteiner .comment-reply-link p, .sc_misionero .btn-conteiner #submit p {
+        .sc_misionero .btn-conteiner .green-btn p, .sc_misionero .btn-conteiner .comment-reply-link p, .sc_misionero .btn-conteiner #submit p, .sc_entrevista .btn-conteiner .green-btn p, .sc_entrevista .btn-conteiner .comment-reply-link p, .sc_entrevista .btn-conteiner #submit p {
           margin: 14px 0;
           font-size: 36px;
           line-height: 38px;
           text-transform: uppercase;
           font-family: "HelveticaNeue-CondensedBold"; }
+
+  .sc_entrevista {
+    background: url("../images/home/bg-entrevista.jpg") no-repeat;
+    background-size: cover; }
 
   /*********************
   FOOTER STYLES

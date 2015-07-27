@@ -89,6 +89,15 @@
 				</div>
 			</div>
 		</div>
+		<div class="ei_section sc_entrevista">
+			<div id="inner-content" class="wrap cf">
+				<div class="btn-conteiner">
+					<div class="green-btn">
+						<p>Entrevista 5 minutos</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 </div>
 
