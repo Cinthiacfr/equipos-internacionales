@@ -67,11 +67,8 @@ FONT FACE (IN YOUR FACE)
 */
 @font-face {
   font-family: 'HelveticaNeue-CondensedBold';
-  src: url("library/fonts/HelveticaNeue-CondensedBold.otf");
-  /*      src: url('library/fonts/Helvetica.ttf.eot?#iefix') format('embedded-opentype'),
-               url('library/fonts/Helvetica.ttf.woff') format('woff'),
-               url('library/fonts/Helvetica.ttf.ttf') format('truetype'),
-               url('library/fonts/Helvetica.ttf.svg#font-name') format('svg');*/
+  src: url("library/fonts/HelveticaNeue-CondensedBold.eot");
+  src: url("library/fonts/HelveticaNeue-CondensedBold.eot?#iefix") format("embedded-opentype"), url("library/fonts/HelveticaNeue-CondensedBold.ttf.woff") format("woff"), url("library/fonts/HelveticaNeue-CondensedBold.ttf.ttf") format("truetype"), url("library/fonts/HelveticaNeue-CondensedBold.ttf.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 /*
@@ -400,7 +397,7 @@ HOME STYLES
         font-size: 36px;
         line-height: 38px;
         text-transform: uppercase;
-        font-family: "HelveticaNeue-CondensedBold"; }
+        font-family: "HelveticaNeue-CondensedBold", Helvetica, Arial, sans-serif; }
 
 .sc_entrevista {
   background: url("../images/home/bg-entrevista.jpg") no-repeat;
