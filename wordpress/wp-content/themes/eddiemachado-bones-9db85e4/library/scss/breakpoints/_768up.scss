@@ -33,14 +33,17 @@ HEADER STYLES
 
 .header {
 	background: transparent;
-	padding-top: 45px;
+	position: fixed;
+    top: 0;
+    width: 100%;
 	.logo{
 		float: left;
+		padding-top: 45px;
 	}
 	nav{
 		float: right;
 		background-color: rgba(0, 0, 0, 0.6);
-		margin-top: 15px;	
+		margin-top: 55px;
 		li{
 			a{
 				font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
@@ -287,7 +290,6 @@ HOME STYLES
 .sc_noticias{
 	background: url('../images/home/bg-noticias.jpg') no-repeat;
 	background-size: cover;
-
 	padding-top: 6.5em;
 }
 .sc_misionero, .sc_entrevista{

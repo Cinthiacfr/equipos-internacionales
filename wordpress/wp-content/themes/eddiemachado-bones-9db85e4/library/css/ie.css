@@ -255,13 +255,16 @@ HEADER STYLES
 *********************/
 .header {
   background: transparent;
-  padding-top: 45px; }
+  position: fixed;
+  top: 0;
+  width: 100%; }
   .header .logo {
-    float: left; }
+    float: left;
+    padding-top: 45px; }
   .header nav {
     float: right;
     background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 15px; }
+    margin-top: 55px; }
     .header nav li a {
       font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
       color: #fff;
