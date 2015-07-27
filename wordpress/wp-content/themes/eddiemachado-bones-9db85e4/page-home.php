@@ -46,7 +46,7 @@
 											'link_after'  => '</span>',
 										) );
 									?>
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/cosecha.png">
+									
 								</section>
 
 								
