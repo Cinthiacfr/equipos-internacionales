@@ -2012,6 +2012,14 @@ you can add resource intensive styles.
     background: url("../images/home/bg-entrevista.jpg") no-repeat;
     background-size: cover; }
 
+  .sc-footerContact, .sc-footerLogo {
+    width: 50%;
+    float: left; }
+
+  .sc-footerLogo img {
+    margin: 46px 0;
+    float: right; }
+
   /*********************
   FOOTER STYLES
   *********************/
