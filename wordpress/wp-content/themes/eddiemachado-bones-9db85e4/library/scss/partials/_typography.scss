@@ -29,11 +29,11 @@ FONT FACE (IN YOUR FACE)
 */
   @font-face {
       font-family: 'HelveticaNeue-CondensedBold';
-      src: url('library/fonts/Helvetica.ttf.eot');
-      src: url('library/fonts/Helvetica.ttf.eot?#iefix') format('embedded-opentype'),
+      src: url('library/fonts/HelveticaNeue-CondensedBold.otf');
+/*      src: url('library/fonts/Helvetica.ttf.eot?#iefix') format('embedded-opentype'),
              url('library/fonts/Helvetica.ttf.woff') format('woff'),
              url('library/fonts/Helvetica.ttf.ttf') format('truetype'),
-             url('library/fonts/Helvetica.ttf.svg#font-name') format('svg');
+             url('library/fonts/Helvetica.ttf.svg#font-name') format('svg');*/
       font-weight: normal;
       font-style: normal;
   }
