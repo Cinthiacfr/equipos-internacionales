@@ -293,12 +293,31 @@ HOME STYLES
 .sc_misionero{
 	background: url('../images/home/bg-misionero.jpg') no-repeat;
 	background-size: cover;
-
 	padding-top: 6.5em;
 
 	.btn-conteiner{
 		width: 100%;
 		text-align: center;
+		position: relative;
+    	height: 526px;
+
+    		.green-btn{
+    			position:absolute;
+    			bottom:0;
+    			left:0;
+    			right: 0;
+    			margin-left: auto;
+    			margin-right: auto;
+    			max-width: 622px;
+    			width: 59.808%;
+
+    			p{
+				    margin: 14px 0;
+				    font-size: 36px;
+				    line-height: 38px;
+				    text-transform: uppercase;
+				}
+    		}
 	}
 }
 
