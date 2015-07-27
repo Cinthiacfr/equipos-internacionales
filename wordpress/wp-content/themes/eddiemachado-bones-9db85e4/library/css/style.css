@@ -914,13 +914,14 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   border: 0;
   cursor: pointer;
   -webkit-transition: background-color 0.14s ease-in-out;
-  transition: background-color 0.14s ease-in-out; }
+  transition: background-color 0.14s ease-in-out;
+  /* &:active {
+     top: 1px; // adds a tiny hop to the click
+   } // end active*/ }
   .green-btn:hover, .comment-reply-link:hover, #submit:hover, .green-btn:focus, .comment-reply-link:focus, #submit:focus {
     color: #fff;
     text-decoration: none;
     outline: none; }
-  .green-btn:active, .comment-reply-link:active, #submit:active {
-    top: 1px; }
 
 /*
 An example button.
