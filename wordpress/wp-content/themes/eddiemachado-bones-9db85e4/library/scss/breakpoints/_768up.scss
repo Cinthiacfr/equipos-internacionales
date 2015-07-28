@@ -291,11 +291,13 @@ HOME STYLES
 	background: url('../images/home/bg-noticias.jpg') no-repeat;
 	background-size: cover;
 	padding-top: 6.5em;
+	background-attachment:fixed;
 }
 .sc_misionero, .sc_entrevista{
 	background: url('../images/home/bg-misionero.jpg') no-repeat;
 	background-size: cover;
 	padding-top: 6.5em;
+	background-attachment:fixed;
 
 	.btn-conteiner{
 		width: 100%;

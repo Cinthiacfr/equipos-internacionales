@@ -375,12 +375,14 @@ HOME STYLES
 .sc_noticias {
   background: url("../images/home/bg-noticias.jpg") no-repeat;
   background-size: cover;
-  padding-top: 6.5em; }
+  padding-top: 6.5em;
+  background-attachment: fixed; }
 
 .sc_misionero, .sc_entrevista {
   background: url("../images/home/bg-misionero.jpg") no-repeat;
   background-size: cover;
-  padding-top: 6.5em; }
+  padding-top: 6.5em;
+  background-attachment: fixed; }
   .sc_misionero .btn-conteiner, .sc_entrevista .btn-conteiner {
     width: 100%;
     text-align: center;
